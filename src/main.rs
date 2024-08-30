@@ -291,9 +291,9 @@ Press enter to continue..."
 
     pause();
 
-    let civ6 = civ6_install("[1/3]")?;
-    let dlc_zip = download_dlc("[2/3]").await?;
-    extract_dlc("[3/3]", dlc_zip, civ6)?;
+    let civ6 = civ6_install("[1/4]")?;
+    let dlc_zip = download_dlc("[2/4]").await?;
+    extract_dlc("[3/4]", dlc_zip, civ6)?;
     println!(
         "{} {} Done, you can now run Civ6 with all of the DLC!",
         progress_style("[4/4]"),
